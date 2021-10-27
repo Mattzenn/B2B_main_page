@@ -1,0 +1,9 @@
+.offer__container {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    .offer__container {
+        flex-direction: column;
+    }
+}

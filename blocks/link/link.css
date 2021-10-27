@@ -1,0 +1,11 @@
+.link {
+    margin: 0;
+    color: #002b49;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: .2s ease-in-out;
+}
+
+.link:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,11 @@
+.info__container_type_second {
+    /* display: grid;
+    grid-template-columns: 66.2% 31.9%;
+    margin-top: 30px;
+    gap: 30px; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 30px;
+}

@@ -1,0 +1,26 @@
+.main-banner__textcontent {
+    max-width: 550px;
+    text-align: left;
+    padding: 80px auto 120px auto;
+    margin-top: 100px;
+}
+
+@media (max-width: 1600px) {
+    .main-banner__textcontent {
+        margin-left: 10px;
+        max-width: 560px;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-banner__textcontent {
+        max-width: 700px;
+        padding: 80px auto 120px auto;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-banner__textcontent {
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+.offer__card {
+    position: relative;
+    width: 370px;
+    min-height: 555px;
+    margin-right: 30px;
+    text-decoration: none;
+    display: block;
+    background-size: 100% 100%;
+    color: inherit;
+}
+
+.offer__card:last-of-type {
+    margin-right: 0px;
+}
+
+.offer__card:hover .module-image__img {
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .offer__card {
+        width: 300px;
+        margin: 10px auto;
+    }
+    .offer__card:last-of-type {
+        margin: 10px auto;
+    }
+}

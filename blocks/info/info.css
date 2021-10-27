@@ -1,0 +1,13 @@
+.info {
+    width: 100%;
+    margin: 120px auto;
+    position: relative;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .info {
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+}

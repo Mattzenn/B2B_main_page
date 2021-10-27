@@ -1,0 +1,9 @@
+.offer {
+    max-width: 1184px;
+    position: relative;
+    margin: 100px auto 0 auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

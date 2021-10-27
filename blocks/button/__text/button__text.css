@@ -1,0 +1,22 @@
+.button__text {
+    font-size: 1rem;
+    line-height: 22px;
+    font-weight: 900;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .button__text {
+        font-size: 32px;
+        line-height: 35px;
+
+    }
+}
+
+@media (max-width: 450px) {
+    .button__text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

@@ -1,0 +1,20 @@
+.main-banner__subtitle {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 0.67em;
+    box-sizing: inherit;
+}
+
+@media (max-width: 450px) {
+    .main-banner__subtitle {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+}

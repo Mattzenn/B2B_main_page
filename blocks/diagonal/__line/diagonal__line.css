@@ -1,0 +1,12 @@
+.diagonal__line {
+    position: absolute;
+    width: 2000px;
+    height: 500px;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    transform: rotate(-4deg);
+    z-index: 1;
+}

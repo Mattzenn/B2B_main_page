@@ -1,0 +1,13 @@
+.main-banner__button {
+    /* max-width: 1184px; */
+    /* margin: 0 auto; */
+    color: #fff;
+    width: 200px;
+    max-height: 48px;
+}
+
+@media (max-width: 700px) {
+    .main-banner__button {
+        width: 200px;
+    }
+}

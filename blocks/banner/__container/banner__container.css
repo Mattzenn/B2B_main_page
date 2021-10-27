@@ -1,0 +1,16 @@
+.banner__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0;
+    gap: 30px;
+}
+
+.banner__container:hover::after {
+    opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+    .banner__container {
+        grid-template-columns: 1fr;
+    }
+}

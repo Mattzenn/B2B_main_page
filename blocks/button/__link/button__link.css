@@ -1,0 +1,45 @@
+.button__link {
+    position: relative;
+    text-decoration: none;
+    padding: 0 16px 0 16px;
+    background-color: #df0024;
+    color: inherit;
+    z-index: 1;
+    display: flex;
+    padding: 16px;
+}
+
+.button__link::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2A2C2F;
+    opacity: 0;
+    z-index: -1;
+    transition: .2s ease-in-out;
+}
+
+.button__link:hover::after {
+    opacity: 0.3;
+}
+
+@media (max-width: 1024px) {
+    .button__link {
+        padding: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .button__link {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .button__link {
+        padding: 5px;
+    }
+}

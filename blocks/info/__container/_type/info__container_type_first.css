@@ -1,0 +1,12 @@
+.info__container_type_first {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 30px;
+}
+
+@media (max-width: 600px) {
+    .info__container_type_first {
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -1,0 +1,21 @@
+.main-banner__buttontext {
+    font-size: 1rem;
+    line-height: 22px;
+    font-weight: 900;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .main-banner__buttontext {
+        font-size: 24px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-banner__buttontext {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

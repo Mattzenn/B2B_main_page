@@ -1,0 +1,10 @@
+.banner__content {
+    min-height: 530px;
+    position: relative;
+    background-color: #2A2C2F;
+    z-index: 1;
+}
+
+.banner__content:hover .module-image {
+    opacity: 0.7;
+}

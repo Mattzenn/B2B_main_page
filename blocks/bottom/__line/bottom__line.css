@@ -1,0 +1,12 @@
+.bottom__line {
+    background: linear-gradient(to right bottom, transparent 49.5%, #fff 50%);
+    bottom: 0;
+    transform: none;
+    height: 100px;
+    left: 0;
+    position: absolute;
+    transform-origin: 0 0;
+    width: 100%;
+    box-sizing: inherit;
+    z-index: 1;
+}

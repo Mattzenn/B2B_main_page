@@ -1,0 +1,12 @@
+.banner {
+    background-color: #002b49;
+    margin-top: 120px;
+    width: 100%;
+    min-height: 600px;
+}
+
+@media (max-width: 600px) {
+    .banner {
+        margin-top: 50px;
+    }
+}
