@@ -13,9 +13,9 @@
     z-index: 2;
 }
 
-/* @media (max-width: 885px) {
+@media (max-width: 885px) {
     .offer__card_title {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         line-height: 2rem;
     }
-} */
+}

@@ -17,12 +17,26 @@
     opacity: 0.7;
 }
 
+@media (max-width: 885px) {
+    .offer__card {
+        min-height: 400px;
+    }
+}
+
 @media (max-width: 600px) {
     .offer__card {
         width: 300px;
         margin: 10px auto;
     }
+
     .offer__card:last-of-type {
         margin: 10px auto;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .offer__card {
+        min-height: 350px;
     }
 }

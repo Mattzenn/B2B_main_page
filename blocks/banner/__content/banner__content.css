@@ -8,3 +8,15 @@
 .banner__content:hover .module-image {
     opacity: 0.7;
 }
+
+@media (max-width: 885px) {
+    .banner__content {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 375px) {
+    .banner__content {
+        min-height: 350px;
+    }
+}

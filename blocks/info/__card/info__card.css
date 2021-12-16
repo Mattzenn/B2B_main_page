@@ -16,3 +16,15 @@
 .info__card:hover .module-image__img {
     opacity: 0.7;
 }
+
+@media (max-width: 700px) {
+    .info__card {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    .info__card {
+        min-height: 250px;
+    }
+}

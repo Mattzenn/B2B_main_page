@@ -5,6 +5,12 @@
     min-height: 600px;
 }
 
+@media (max-width: 886px) {
+    .banner {
+        min-height: 400px;
+    }
+}
+
 @media (max-width: 600px) {
     .banner {
         margin-top: 50px;
