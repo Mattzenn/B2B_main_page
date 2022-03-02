@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./blocks/animate/animate.css">
     <title>B2B главная страница</title>
 </head>
 
@@ -110,22 +111,22 @@
             </div>
 
             <section class="offer">
-                <div class="offer__title">Основные направления</div>
+                <div class="offer__title wow slideInDown" data-wow-duration="1.5s">Основные направления</div>
                 <div class="offer__container">
-                    <a href="#" target="_self" class="offer__card">
+                    <a href="#" target="_self" class="offer__card wow fadeIn" data-wow-duration="1.5s">
                         <h2 class="offer__card_title">Каталог товаров</h2>
                         <div class="module-image">
                             <img class="module-image__img" src="./images/keyvisual-range-close-ctrlx_737x1106.jpeg"
                                 alt="">
                         </div>
                     </a>
-                    <a href="#" target="_self" class="offer__card">
+                    <a href="#" target="_self" class="offer__card wow fadeIn" data-wow-duration="1.5s">
                         <h2 class="offer__card_title">Услуги по обучению</h2>
                         <div class="module-image">
                             <img class="module-image__img" src="./images/training_1280x720.jpeg" alt="">
                         </div>
                     </a>
-                    <a href="#" target="_self" class="offer__card">
+                    <a href="#" target="_self" class="offer__card wow fadeIn" data-wow-duration="1.5s">
                         <h2 class="offer__card_title">Сервисные Услуги</h2>
                         <div class="module-image">
                             <img class="module-image__img" src="./images/repairs-stage_1920x864.jpeg" alt="">
@@ -140,7 +141,7 @@
                     <div class="diagonal__line diagonal__line_theme_bottom"></div>
                 </section>
                 <div class="banner__container">
-                    <div class="banner__content">
+                    <div class="banner__content wow fadeInLeft" data-wow-duration="1.5s">
                         <a href="https://b2b.boschrexroth.ru/">
                             <div class="module-image">
                                 <img class="module-image__img" src="./images/service-page-banner_1600x400.jpeg" alt="">
@@ -151,7 +152,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="banner__content">
+                    <div class="banner__content wow fadeInRight" data-wow-duration="1.5s">
                         <a href="https://b2b.boschrexroth.ru/"></a>
                         <div class="module-image">
                             <img class="module-image__img" src="./images/hannover-messe-stage_1600x400.jpeg" alt="">
@@ -173,7 +174,8 @@
                 <div class="info__title">Полезная информация</div>
                 <div class="info__container">
                     <div class="info__container_type_first">
-                        <a href="#" target="_self" class="info__card">
+                        <a href="#" target="_self" class="info__card wow fadeIn" data-wow-duration="1.5s"
+                            data-wow-delay="0s">
                             <div class="module-image">
                                 <img class="module-image__img" src="./images/factories-stage_1600x400.jpeg" alt="">
                             </div>
@@ -182,7 +184,8 @@
                                 <p class="info__card_subtitle">Новый мир автоматизации</p>
                             </div>
                         </a>
-                        <a href="#" target="_self" class="info__card">
+                        <a href="#" target="_self" class="info__card wow fadeIn" data-wow-duration="1.5s"
+                            data-wow-delay="0.1s">
                             <div class="module-image">
                                 <img class="module-image__img" src="./images/employees-story-page-banner_1600x400.jpeg"
                                     alt="">
@@ -192,7 +195,8 @@
                                 <p class="info__card_subtitle">Узнайте об истории нашей компании</p>
                             </div>
                         </a>
-                        <a href="#" target="_self" class="info__card">
+                        <a href="#" target="_self" class="info__card wow fadeIn" data-wow-duration="1.5s"
+                            data-wow-delay="0.2s">
                             <div class="module-image">
                                 <img class="module-image__img"
                                     src="./images/stage-interview-marc-wucherer_1600x400.jpeg" alt="">
@@ -203,7 +207,8 @@
                             </div>
                         </a>
 
-                        <a href="#" target="_self" class="info__card info__card_type_big">
+                        <a href="#" target="_self" class="info__card info__card_type_big wow fadeIn"
+                            data-wow-duration="1.5s" data-wow-delay="0.3s">
                             <div class="module-image">
                                 <img class="module-image__img"
                                     src="./images/stage-interview-marc-wucherer_1600x400.jpeg" alt="">
@@ -213,7 +218,8 @@
                                 <p class="info__card_subtitle">Welcome to our digital world</p>
                             </div>
                         </a>
-                        <a href="#" target="_self" class="info__card" style="width: 100%;">
+                        <a href="#" target="_self" class="info__card wow fadeIn" data-wow-duration="1.5s"
+                            data-wow-delay="0.4s" style="width: 100%;">
                             <div class="module-image">
                                 <img class="module-image__img"
                                     src="./images/stage-interview-marc-wucherer_1600x400.jpeg" alt="">
@@ -223,7 +229,8 @@
                                 <p class="info__card_subtitle">Welcome to our digital world</p>
                             </div>
                         </a>
-                        <a href="#" target="_self" class="info__card" style="width: 100%;">
+                        <a href="#" target="_self" class="info__card wow fadeIn" data-wow-duration="1.5s"
+                            data-wow-delay="0.5s" style="width: 100%;">
                             <div class="module-image">
                                 <img class="module-image__img"
                                     src="./images/stage-interview-marc-wucherer_1600x400.jpeg" alt="">
@@ -246,8 +253,12 @@
                 </div>
             </section>
         </footer>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-        <script src="./script.js"></script>
+        <script src="./js/script.js"></script>
     </div>
 </body>
 
