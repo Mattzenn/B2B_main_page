@@ -1,78 +1,78 @@
-@import url(../vendor/styles/normalize.css);
-@import url(../vendor/styles/inter.css);
+@import url(../../vendor/styles/normalize.css);
+@import url(../../vendor/styles/inter.css);
 
 /* ................................... */
 
-@import url(../blocks/page/page.css);
-@import url(../blocks/banner/banner.css);
-@import url(../blocks/banner/__content/banner__content.css);
-@import url(../blocks/banner/__container/banner__container.css);
-@import url(../blocks/banner/__title/banner__title.css);
-@import url(../blocks/banner/__subtitle/banner__subtitle.css);
-@import url(../blocks/banner/__info/banner__info.css);
+@import url(../../blocks/page/page.css);
+@import url(../../blocks/banner/banner.css);
+@import url(../../blocks/banner/__content/banner__content.css);
+@import url(../../blocks/banner/__container/banner__container.css);
+@import url(../../blocks/banner/__title/banner__title.css);
+@import url(../../blocks/banner/__subtitle/banner__subtitle.css);
+@import url(../../blocks/banner/__info/banner__info.css);
 
 /* ................................... */
 
-@import url(../blocks/diagonal/diagonal.css);
-@import url(../blocks/diagonal/__line/diagonal__line.css);
-@import url(../blocks/diagonal/_theme/diagonal_theme_bottom.css);
-@import url(../blocks/diagonal/__line/_theme/diagonal__line_theme_bottom.css);
+@import url(../../blocks/diagonal/diagonal.css);
+@import url(../../blocks/diagonal/__line/diagonal__line.css);
+@import url(../../blocks/diagonal/_theme/diagonal_theme_bottom.css);
+@import url(../../blocks/diagonal/__line/_theme/diagonal__line_theme_bottom.css);
 
 /* ................................... */
 
-@import url(../blocks/offer/offer.css);
-@import url(../blocks/offer/__card/offer__card.css);
-@import url(../blocks/offer/__card/_title/offer__card_title.css);
-@import url(../blocks/offer/__container/offer__container.css);
-@import url(../blocks/offer/__title/offer__title.css);
+@import url(../../blocks/offer/offer.css);
+@import url(../../blocks/offer/__card/offer__card.css);
+@import url(../../blocks/offer/__card/_title/offer__card_title.css);
+@import url(../../blocks/offer/__container/offer__container.css);
+@import url(../../blocks/offer/__title/offer__title.css);
 
 /* ................................... */
 
-@import url(../blocks/info/info.css);
-@import url(../blocks/info/__container/info__container.css);
-@import url(../blocks/info/__container/_type/info__container_type_first.css);
-@import url(../blocks/info/__container/_type/info__container_type_second.css);
-@import url(../blocks/info/__title/info__title.css);
-@import url(../blocks/info/__card/info__card.css);
-@import url(../blocks/info/__card/_type/info__card_type_big.css);
-@import url(../blocks/info/__card/_title/info__card_title.css);
-@import url(../blocks/info/__card/_subtitle/info__card_subtitle.css);
-@import url(../blocks/info/__card-container/info__card-container.css);
+@import url(../../blocks/info/info.css);
+@import url(../../blocks/info/__container/info__container.css);
+@import url(../../blocks/info/__container/_type/info__container_type_first.css);
+@import url(../../blocks/info/__container/_type/info__container_type_second.css);
+@import url(../../blocks/info/__title/info__title.css);
+@import url(../../blocks/info/__card/info__card.css);
+@import url(../../blocks/info/__card/_type/info__card_type_big.css);
+@import url(../../blocks/info/__card/_title/info__card_title.css);
+@import url(../../blocks/info/__card/_subtitle/info__card_subtitle.css);
+@import url(../../blocks/info/__card-container/info__card-container.css);
 
 /* ................................... */
 
-@import url(../blocks/module-image/module-image.css);
-@import url(../blocks/module-image/__img/module-image__img.css);
+@import url(../../blocks/module-image/module-image.css);
+@import url(../../blocks/module-image/__img/module-image__img.css);
 
 /* ................................... */
 
-@import url(../blocks/swiper/swiper-content__item.css);
-@import url(../blocks/swiper/swiper__image.css);
-@import url(../blocks/swiper/swiper.css);
+@import url(../../blocks/swiper/swiper-content__item.css);
+@import url(../../blocks/swiper/swiper__image.css);
+@import url(../../blocks/swiper/swiper.css);
 
 /* ................................... */
 
-@import url(../blocks/main-banner/main-banner.css);
-@import url(../blocks/main-banner/__title/main-banner__title.css);
-@import url(../blocks/main-banner/__textcontent/main-banner__textcontent.css);
-@import url(../blocks/main-banner/__subtitle/main-banner__subtitle.css);
-@import url(../blocks/main-banner/__description/main-banner__description.css);
-@import url(../blocks/main-banner/__content/main-banner__content.css);
-@import url(../blocks/main-banner/__buttontext/main-banner__buttontext.css);
-@import url(../blocks/main-banner/__button/main-banner__button.css);
+@import url(../../blocks/main-banner/main-banner.css);
+@import url(../../blocks/main-banner/__title/main-banner__title.css);
+@import url(../../blocks/main-banner/__textcontent/main-banner__textcontent.css);
+@import url(../../blocks/main-banner/__subtitle/main-banner__subtitle.css);
+@import url(../../blocks/main-banner/__description/main-banner__description.css);
+@import url(../../blocks/main-banner/__content/main-banner__content.css);
+@import url(../../blocks/main-banner/__buttontext/main-banner__buttontext.css);
+@import url(../../blocks/main-banner/__button/main-banner__button.css);
 
 /* ................................... */
 
-@import url(../blocks/bottom/__line/bottom__line.css);
-@import url(../blocks/bottom/bottom.css);
+@import url(../../blocks/bottom/__line/bottom__line.css);
+@import url(../../blocks/bottom/bottom.css);
 
 /* ................................... */
 
-@import url(../blocks/button/button.css);
-@import url(../blocks/button/__text/button__text.css);
-@import url(../blocks/button/__link/button__link.css);
-@import url(../blocks/button/__link/_type/button__link_type_blue.css);
+@import url(../../blocks/button/button.css);
+@import url(../../blocks/button/__text/button__text.css);
+@import url(../../blocks/button/__link/button__link.css);
+@import url(../../blocks/button/__link/_type/button__link_type_blue.css);
 
 /* ................................... */
 
-@import url(../blocks/link/link.css);
+@import url(../../blocks/link/link.css);
