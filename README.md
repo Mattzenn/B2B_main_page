@@ -1,6 +1,6 @@
 # Проект: "B2B_Bosch_Rexroth_main_page".
 
-### Ссылка на страницу: [https://b2b.boschrexroth.ru/academy.php](https://mattzenn.github.io/B2B_main_page/)
+### Ссылка на страницу: [https://mattzenn.github.io/B2B_main_page/](https://mattzenn.github.io/B2B_main_page/)
 
 ## Описание:
 
